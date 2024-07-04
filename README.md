@@ -28,21 +28,21 @@ In this study, we introduced Transformer with Subgraph Positional Encoding (TSPE
 <tbody>
   <tr>
     <td>roc_auc</td>
-    <td>0.5309 ± 0.0105</td>
-    <td>0.6665 ± 0.0301</td>
-    <td><strong>0.9649 ± 0.0093</strong></td>
-    <td>0.5497 ± 0.0079</td>
-    <td>0.6469 ± 0.0183</td>
-    <td><strong>0.8055 ± 0.0169</strong></td>    
+    <td>0.5309</td>
+    <td>0.6665</td>
+    <td><strong>0.9649</strong></td>
+    <td>0.5497</td>
+    <td>0.6469</td>
+    <td><strong>0.8055</strong></td>    
   </tr>
   <tr>
     <td>Accuracy</td>
-    <td>0.8357 ± 0.0039</td>
-    <td>0.8678 ± 0.0011</td>
-    <td><strong>0.9345 ± 0.0224</strong></td>
-    <td>0.6150 ± 0.0078</td>
-    <td>0.6801 ± 0.0166</td>
-    <td><strong>0.7318 ± 0.0140</strong></td>              
+    <td>0.8357</td>
+    <td>0.8678</td>
+    <td><strong>0.9345</strong></td>
+    <td>0.6150</td>
+    <td>0.6801</td>
+    <td><strong>0.7318</strong></td>              
   </tr>
 </tbody>
 </table>
