@@ -8,7 +8,8 @@ In this study, we introduced Transformer with Subgraph Positional Encoding (TSPE
 ![fig2](https://github.com/xihan-qin/Graph_Transformer_with_Disease_Subgraph_Positional_Encoding/blob/main/figs/SPE.png)
 
 ### Results Showcase
-### TSPE vs the State-of-the-Art for Commorbidity Prediction: Benchmark datasets RR0 and RR1
+### TSPE vs the State-of-the-Art for Commorbidity Prediction
+Bechmark Datasets: RR0 and RR1.
 <table>
 <thead>
   <tr>
@@ -47,6 +48,31 @@ In this study, we introduced Transformer with Subgraph Positional Encoding (TSPE
 </tbody>
 </table>
 
-
+### SPE Ablation Analysis
+NoPE: no positional encoding; LPE: a popular positional encoding proposed in Dwivedi et al.'s work; SPE: our subgraph positional encoding
+<table>
+<thead>
+  <tr>
+    <th >Metric</th>
+    <th >NoPE</th>
+    <th >LPE</th>
+    <th >SPE</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>roc_auc</td>
+    <td>0.7937</td>
+    <td>0.8009</td>
+    <td><strong>0.8055</strong></td> 
+  </tr>
+  <tr>
+    <td>Accuracy</td>
+    <td>0.7185</td>
+    <td>0.7292</td>
+    <td><strong>0.7318</strong></td>            
+  </tr>
+</tbody>
+</table>
 ### Note
 For additional details, please consult the paper titled "Graph Transformer with Disease Subgraph Positional Encoding  for  Improved Comorbidity Prediction."
