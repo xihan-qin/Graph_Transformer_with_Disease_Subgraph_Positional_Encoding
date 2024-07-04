@@ -74,5 +74,6 @@ NoPE: no positional encoding; LPE: a popular positional encoding proposed in Dwi
   </tr>
 </tbody>
 </table>
+
 ### Note
 For additional details, please consult the paper titled "Graph Transformer with Disease Subgraph Positional Encoding  for  Improved Comorbidity Prediction."
