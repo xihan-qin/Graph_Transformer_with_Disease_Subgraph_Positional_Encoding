@@ -4,7 +4,7 @@ In this study, we introduced Transformer with Subgraph Positional Encoding (TSPE
 ### TSPE Framework
 ![fig1](https://github.com/xihan-qin/Graph_Transformer_with_Disease_Subgraph_Positional_Encoding/blob/main/figs/TSPE_framework.png)
 
-### Subgraph Positional Encoding (SPE) 
+### Subgraph Positional Encoding (SPE)
 ![fig2](https://github.com/xihan-qin/Graph_Transformer_with_Disease_Subgraph_Positional_Encoding/blob/main/figs/SPE.png)
 
 ### Results Showcase
@@ -31,19 +31,19 @@ Bechmark Datasets: RR0 and RR1.
     <td>roc_auc</td>
     <td>0.5309</td>
     <td>0.6665</td>
-    <td><strong>0.9649</strong></td>
+    <td><strong>0.9489</strong></td>
     <td>0.5497</td>
     <td>0.6469</td>
-    <td><strong>0.8055</strong></td>    
+    <td><strong>0.8009</strong></td>    
   </tr>
   <tr>
     <td>Accuracy</td>
     <td>0.8357</td>
-    <td>0.8678</td>
-    <td><strong>0.9345</strong></td>
+    <td>0.8765</td>
+    <td><strong>0.9069</strong></td>
     <td>0.6150</td>
     <td>0.6801</td>
-    <td><strong>0.7318</strong></td>              
+    <td><strong>0.7294</strong></td>              
   </tr>
 </tbody>
 </table>
@@ -62,15 +62,15 @@ NoPE: no positional encoding; LPE: a popular positional encoding proposed in Dwi
 <tbody>
   <tr>
     <td>roc_auc</td>
-    <td>0.7937</td>
-    <td>0.8009</td>
-    <td><strong>0.8055</strong></td> 
+    <td>0.7971</td>
+    <td>0.8007</td>
+    <td><strong>0.8009</strong></td>
   </tr>
   <tr>
     <td>Accuracy</td>
-    <td>0.7185</td>
-    <td>0.7292</td>
-    <td><strong>0.7318</strong></td>            
+    <td>0.7214</td>
+    <td>0.7234</td>
+    <td><strong>0.7294</strong></td>            
   </tr>
 </tbody>
 </table>
